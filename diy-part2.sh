@@ -11,10 +11,10 @@
 #
 
 # 修改默认IP
-#sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/luci2/bin/config_generate
+sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/luci2/bin/config_generate
 
 # Modify default theme
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # 修改默认主机名称
-#sed -i 's/OpenWrt/NLEDE/g' package/base-files/luci2/bin/config_generate
+sed -i 's/OpenWrt/NLEDE/g' package/base-files/luci2/bin/config_generate
