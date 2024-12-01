@@ -16,5 +16,5 @@
 # Modify default theme
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
-# Modify hostname
+# 修改默认主机名称
 #sed -i 's/OpenWrt/NLEDE/g' package/base-files/luci2/bin/config_generate
